@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Title: PredWildFires.py
-Author: Gavan Burke and Jun Hua Wong
 Date: Fall 2019
 Description:  Calls a Gui, reads data files, builds model, and then runs
 data against the model.
