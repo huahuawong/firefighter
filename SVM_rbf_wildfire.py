@@ -194,7 +194,7 @@ if __name__ == "__main__":
         pl.show()
 
 
-    def test_non_linear():
+    def run_SVM():
         X1, y1, X2, y2 = gen_non_lin_separable_data()
         X_train, y_train = split_train(X1, y1, X2, y2)
         X_test, y_test = split_test(X1, y1, X2, y2)
@@ -208,5 +208,5 @@ if __name__ == "__main__":
 
         plot_contour(X_train[y_train == 1], X_train[y_train == -1], clf)
 
-    test_non_linear()
+    run_SVM()
 
