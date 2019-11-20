@@ -207,6 +207,8 @@ if __name__ == "__main__":
         print("%d out of %d predictions correct" % (correct, len(y_predict)))
 
         plot_contour(X_train[y_train == 1], X_train[y_train == -1], clf)
-
+        print("F1 score:", f1_score(y_test, y_predict, average='macro'))
+        
+        
     run_SVM()
 
