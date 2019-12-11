@@ -30,6 +30,9 @@ y_pred = svclassifier.predict(X_test)
 print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 
-scores = cross_val_score(svclassifier, X, y, cv=10, scoring='accuracy')
-print(scores)
-print("The mean of the r2 score is: ", np.mean(scores))
+def getscore(X,y):  
+  scores = cross_val_score(svclassifier, X, y, cv=10, scoring='accuracy')
+  return (scores)
+
+
+print("The mean of the r2 score is: ", np.mean(getscore(X,y))
