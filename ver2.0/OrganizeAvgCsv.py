@@ -1,6 +1,6 @@
 #----------
 # Title: OrganizeAvgCsv.py
-# Author: Gavan Burke and Jun Hau Wong
+# Author: Jun Hua Wong
 # Date: Fall 2019
 # Description:  Takes Wunderground CSV data, organizes it, and processes the 
 #               data. (AVG, Min Etc.)
