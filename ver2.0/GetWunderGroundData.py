@@ -1,6 +1,6 @@
 #----------
 # Title: GetWunderGroundData.py
-# Author: Gavan Burke and Jun Hau Wong
+# Author: Jun Hua Wong
 # Date: Fall 2019
 # Description:  Gets Wildfire list, Gets Sensor Node List, finds three
 #               closest sensor nodes and scrapes weather data for 10 days before fire.
