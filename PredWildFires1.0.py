@@ -53,7 +53,5 @@ class CanvasFrame(wx.Frame):
 
 
 frame = CanvasFrame()    
-#MyData = genfromtxt(r"C:\Users\BurkeLaptop5\Downloads\WildFireDataNC_2010_2018_Filtered.csv", delimiter=',')
-#print(MyData)
 
 
