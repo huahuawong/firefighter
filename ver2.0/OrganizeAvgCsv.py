@@ -98,8 +98,7 @@ for index, row in df.iterrows():
             #TempDayList.append(index1)
             #TempDayList[index1] = TempDataList[index1]  
         
-            
-        #df3.to_csv(r'C:\Users\BurkeLaptop5\Downloads\Wildfires_1_Class.csv')
+
 
   
         
